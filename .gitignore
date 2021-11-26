@@ -1,0 +1,6 @@
+.bundle/
+log/*.log
+pkg/
+spec/dummy_app/log/*.log
+spec/dummy_app/storage/
+spec/dummy_app/tmp/
