@@ -1,2 +1,81 @@
-<h1>Counters#index</h1>
-<p>Find me in app/views/error_counter/counters/index.html.erb</p>
+<header>
+  <h1>ErrorCounter</h1>
+</header>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col" class="heading">エラー名</th>
+      <th scope="col">百分率</th>
+      <th scope="col">各合計</th>
+      <th scope="col">総数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"  class="heading">NameError</th>
+      <td><%= @ratio[0] %>％</td>
+      <td><%= @individual_total[0] %></td>
+      <td><%= @total %></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">NoMethodError</th>
+      <td><%= @ratio[1] %>％</td>
+      <td><%= @individual_total[1] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">ArgumentError</th>
+      <td><%= @ratio[2] %>％</td>
+      <td><%= @individual_total[2] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">MissingExactTemplate</th>
+      <td><%= @ratio[3] %>％</td>
+      <td><%= @individual_total[3] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">RoutingError</th>
+      <td><%= @ratio[4] %>％</td>
+      <td><%= @individual_total[4] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">SyntaxError</th>
+      <td><%= @ratio[5] %>％</td>
+      <td><%= @individual_total[5] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">UnknownFormat</th>
+      <td><%= @ratio[6] %>％</td>
+      <td><%= @individual_total[6] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">LoadError</th>
+      <td><%= @ratio[7] %>％</td>
+      <td><%= @individual_total[7] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">AuthenticityToken</th>
+      <td><%= @ratio[8] %>％</td>
+      <td><%= @individual_total[8] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">PendingMigrationError</th>
+      <td><%= @ratio[9] %>％</td>
+      <td><%= @individual_total[9] %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"  class="heading">RecordNotFound</th>
+      <td><%= @ratio[10] %>％</td>
+      <td><%= @individual_total[10] %></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

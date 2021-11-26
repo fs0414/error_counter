@@ -12,3 +12,26 @@
  *
  */
 @import "bootstrap";
+
+body {
+  background-color: #343A3F;
+}
+
+header {
+  background-color: #CC0200;
+  height: 70px;
+  margin: 0px;
+}
+
+.heading {
+  position: relative;
+  left: 80px;
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+  position: relative;
+  top: 15px;
+  left: 70px;
+}
