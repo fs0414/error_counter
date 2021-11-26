@@ -1,3 +1,3 @@
 ErrorCounter::Engine.routes.draw do
-  get 'counters/index'
+  root to: 'counters#index'
 end
