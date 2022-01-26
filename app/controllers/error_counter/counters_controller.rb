@@ -22,16 +22,16 @@ module ErrorCounter
 
     def error_names
       @hash_errors = { "NameError" => 0,
-                      "NoMethodError" => 1,
-                      "ArgumentError" => 2,
-                      "MissingExactTemplate" => 3,
-                      "RoutingError" => 4,
-                      "SyntaxError" => 5,
-                      "UnknownFormat" => 6,
-                      "LoadError" => 7,
-                      "AuthenticityToken" => 8,
-                      "PendingMigrationError" => 9,
-                      "RecordNotFound" => 10
+                       "NoMethodError" => 1,
+                       "ArgumentError" => 2,
+                       "MissingExactTemplate" => 3,
+                       "RoutingError" => 4,
+                       "SyntaxError" => 5,
+                       "UnknownFormat" => 6,
+                       "LoadError" => 7,
+                       "AuthenticityToken" => 8,
+                       "PendingMigrationError" => 9,
+                       "RecordNotFound" => 10
                     }
     end
   end
