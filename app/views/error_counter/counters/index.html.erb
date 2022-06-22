@@ -11,71 +11,78 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row"  class="heading">NameError</th>
-      <td><%= @ratio[0] %>％</td>
-      <td><%= @individual_total[0] %></td>
-      <td><%= @total %></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">NoMethodError</th>
-      <td><%= @ratio[1] %>％</td>
-      <td><%= @individual_total[1] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">ArgumentError</th>
-      <td><%= @ratio[2] %>％</td>
-      <td><%= @individual_total[2] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">MissingExactTemplate</th>
-      <td><%= @ratio[3] %>％</td>
-      <td><%= @individual_total[3] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">RoutingError</th>
-      <td><%= @ratio[4] %>％</td>
-      <td><%= @individual_total[4] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">SyntaxError</th>
-      <td><%= @ratio[5] %>％</td>
-      <td><%= @individual_total[5] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">UnknownFormat</th>
-      <td><%= @ratio[6] %>％</td>
-      <td><%= @individual_total[6] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">LoadError</th>
-      <td><%= @ratio[7] %>％</td>
-      <td><%= @individual_total[7] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">AuthenticityToken</th>
-      <td><%= @ratio[8] %>％</td>
-      <td><%= @individual_total[8] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">PendingMigrationError</th>
-      <td><%= @ratio[9] %>％</td>
-      <td><%= @individual_total[9] %></td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"  class="heading">RecordNotFound</th>
-      <td><%= @ratio[10] %>％</td>
-      <td><%= @individual_total[10] %></td>
-      <td></td>
-    </tr>
+  <div class="container">
+   <div class="row flex-nowrap">
+    <div class="col-5">
+      <tr>
+        <th scope="row"  class="heading">NameError</th>
+        <td><%= @ratio[0] %>％</td>
+        <td><%= @individual_total[0] %></td>
+        <td><%= @total %></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">NoMethodError</th>
+        <td><%= @ratio[1] %>％</td>
+        <td><%= @individual_total[1] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">ArgumentError</th>
+        <td><%= @ratio[2] %>％</td>
+        <td><%= @individual_total[2] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">MissingExactTemplate</th>
+        <td><%= @ratio[3] %>％</td>
+        <td><%= @individual_total[3] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">RoutingError</th>
+        <td><%= @ratio[4] %>％</td>
+        <td><%= @individual_total[4] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">SyntaxError</th>
+        <td><%= @ratio[5] %>％</td>
+        <td><%= @individual_total[5] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">UnknownFormat</th>
+        <td><%= @ratio[6] %>％</td>
+        <td><%= @individual_total[6] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">LoadError</th>
+        <td><%= @ratio[7] %>％</td>
+        <td><%= @individual_total[7] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">AuthenticityToken</th>
+        <td><%= @ratio[8] %>％</td>
+        <td><%= @individual_total[8] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">PendingMigrationError</th>
+        <td><%= @ratio[9] %>％</td>
+        <td><%= @individual_total[9] %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row"  class="heading">RecordNotFound</th>
+        <td><%= @ratio[10] %>％</td>
+        <td><%= @individual_total[10] %></td>
+        <td></td>
+      </tr>
+     </div>
+   </div>
+   
+  </div>
   </tbody>
 </table>

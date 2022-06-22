@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'error_counter'
+gem 'error_counter', git: 'https://github.com/soramar/error_counter'
 ```
 
 And then execute:
@@ -19,6 +19,23 @@ $ bundle
 Or install it yourself as:
 ```bash
 $ gem install error_counter
+```
+
+Migrations
+```
+rails railties:install:migrations
+
+rails db:migrate
+```
+
+Mount in routers.rb
+```
+mount ErrorCounter::Engine => "/error_counter"
+```
+
+styling in assets/config/manifest.js
+```
+//= link error_counter/application.css
 ```
 
 ## Contributing
